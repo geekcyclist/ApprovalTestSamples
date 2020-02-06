@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Collatz.Core;
+
+namespace Colatz.WinForms
+{
+    public partial class SeriesCalculator : Form
+    {
+        public SeriesCalculator()
+        {
+            InitializeComponent();
+        }
+
+        private void SeriesCalculator_Load(object sender, EventArgs e)
+        {
+            SeriesGridView.Visible = false;
+            ErrorLabel.Visible = false;
+            InitalValueTextBox.Select();
+        }
+
+        private void CalculateButton_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(InitalValueTextBox.Text, out int initialValue) && initialValue < 1)
+            {
+                string msg = "The value must be a natural number.";
+                ShowErrorMessage(msg);
+                return;
+            }
+
+            var series = new CollatzSeries(initialValue);
+            var steps = series.Steps;
+
+            SeriesGridView.DataSource = steps;
+            SeriesGridView.Visible = true;
+        }
+
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            InitalValueTextBox.Clear();
+            SeriesGridView.DataSource = null;
+            SeriesGridView.Visible = false;
+            InitalValueTextBox.Select();
+        }
+
+        private void ShowErrorMessage(string msg)
+        {
+            ErrorLabel.Text = $"{msg} \n\nClick 'Clear' and try again.";
+            ErrorLabel.Visible = true;
+        }
+    }
+}
