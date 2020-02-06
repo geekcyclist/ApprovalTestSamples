@@ -9,10 +9,9 @@
                 return input;
             }
 
-            int nextValue;
             int nextStep = input.Step + 1;
+            int nextValue = (input.Value % 2 == 0) ? input.Value / 2 : (input.Value * 3) + 1;
 
-            nextValue = (input.Value % 2 == 0) ? input.Value / 2 : (input.Value * 3) + 1;
             return new CollatzStep { Value = nextValue, Step = nextStep };
         }
     }

@@ -8,7 +8,7 @@ namespace Collatz.Core
 
         public int Value
         {
-            get { return _value; }
+            get => _value;
             set 
             {
                 if (value < 1)
