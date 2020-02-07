@@ -1,0 +1,42 @@
+﻿@model CollatzSeriesViewModel
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Collatz Series Calculator";
+}
+
+<form method="post" asp-controllers="Home" asp-action="Index">
+    <label asp-for="StartValue">Start Value:</label>
+    <input asp-for="StartValue" name="StartValue"/>
+    <button type="submit">Calculate</button>
+</form>
+
+
+@if (Model.StartValue != 0)
+{
+    <div id="results">
+        <p>
+            Start Value: @Model.StartValue <br />
+            Total Steps: @Model.TotalSteps <br />
+            Max Value: @Model.MaxValue
+        </p>
+
+        <table id="steps">
+            <thead>
+            <tr>
+                <th>Step</th>
+                <th>Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (Collatz.Core.CollatzStep step in Model.Series.Steps)
+            {
+                <tr>
+                    <td>@step.Step</td>
+                    <td>@step.Value</td>
+                </tr>
+            }
+            </tbody>
+
+        </table>
+    </div>
+}

@@ -1,0 +1,27 @@
+﻿#mainDiv {
+    padding: 10px;
+    font-size: 14pt;
+}
+#steps {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#steps td, #steps th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#steps tr:nth-child(even){background-color: #f3f3f3;}
+
+#steps tr:hover {background-color: #ddd;}
+
+#steps th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00008b;
+    color: white;
+}

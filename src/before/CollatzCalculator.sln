@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collatz.Core.Tests", "Colla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colatz.WinForms", "Colatz.WinForms\Colatz.WinForms.csproj", "{C92DC9E7-F8F3-436D-9E93-76A13D5C54CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collatz.AspCoreWeb", "Collatz.AspCoreWeb\Collatz.AspCoreWeb.csproj", "{43D9EFE4-03EF-42E8-A2E2-92EE44E93F99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C92DC9E7-F8F3-436D-9E93-76A13D5C54CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C92DC9E7-F8F3-436D-9E93-76A13D5C54CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C92DC9E7-F8F3-436D-9E93-76A13D5C54CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D9EFE4-03EF-42E8-A2E2-92EE44E93F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D9EFE4-03EF-42E8-A2E2-92EE44E93F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D9EFE4-03EF-42E8-A2E2-92EE44E93F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D9EFE4-03EF-42E8-A2E2-92EE44E93F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
