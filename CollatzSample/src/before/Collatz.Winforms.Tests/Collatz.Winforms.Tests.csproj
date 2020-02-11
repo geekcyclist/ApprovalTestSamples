@@ -9,7 +9,7 @@
     <ProjectGuid>{1A2D1760-9933-4367-B0CD-02AF6C8AB960}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Collatz.Winforms.Tests</RootNamespace>
+    <RootNamespace>Collatz.WinForms.Tests</RootNamespace>
     <AssemblyName>Collatz.Winforms.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

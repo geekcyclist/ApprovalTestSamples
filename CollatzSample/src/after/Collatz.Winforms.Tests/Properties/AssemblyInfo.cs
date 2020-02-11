@@ -2,12 +2,12 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Collatz.Winforms.Tests")]
+[assembly: AssemblyTitle("Collatz.WinForms.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("State of Utah")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Collatz.Winforms.Tests")]
-[assembly: AssemblyCopyright("Copyright © State of Utah 2020")]
+[assembly: AssemblyCopyright("Copyright © Gary Ray 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

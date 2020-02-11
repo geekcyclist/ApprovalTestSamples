@@ -4,7 +4,7 @@ using Collatz.WinForms;
 using ApprovalTests.WinForms;
 using ApprovalTests.Reporters;
 
-namespace Collatz.Winforms.Tests
+namespace Collatz.WinForms.Tests
 {
     [TestClass]
     // TODO: Add a clipboard reporter

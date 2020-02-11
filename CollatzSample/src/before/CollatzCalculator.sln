@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collatz.WinForms", "Colatz.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collatz.AspCoreWeb", "Collatz.AspCoreWeb\Collatz.AspCoreWeb.csproj", "{43D9EFE4-03EF-42E8-A2E2-92EE44E93F99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collatz.Winforms.Tests", "Collatz.Winforms.Tests\Collatz.Winforms.Tests.csproj", "{1A2D1760-9933-4367-B0CD-02AF6C8AB960}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collatz.WinForms.Tests", "Collatz.Winforms.Tests\Collatz.WinForms.Tests.csproj", "{1A2D1760-9933-4367-B0CD-02AF6C8AB960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
