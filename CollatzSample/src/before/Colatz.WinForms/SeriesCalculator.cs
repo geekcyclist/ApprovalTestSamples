@@ -22,12 +22,12 @@ namespace Collatz.WinForms
         {
             SeriesGridView.Visible = false;
             ErrorLabel.Visible = false;
-            InitalValueTextBox.Select();
+            InitialValueTextBox.Select();
         }
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
-            if (!int.TryParse(InitalValueTextBox.Text, out int initialValue) && initialValue < 1)
+            if (!int.TryParse(InitialValueTextBox.Text, out int initialValue) && initialValue < 1)
             {
                 string msg = "The value must be a natural number.";
                 ShowErrorMessage(msg);
@@ -43,10 +43,10 @@ namespace Collatz.WinForms
 
         private void ClearButton_Click(object sender, EventArgs e)
         {
-            InitalValueTextBox.Clear();
+            InitialValueTextBox.Clear();
             SeriesGridView.DataSource = null;
             SeriesGridView.Visible = false;
-            InitalValueTextBox.Select();
+            InitialValueTextBox.Select();
         }
 
         private void ShowErrorMessage(string msg)
