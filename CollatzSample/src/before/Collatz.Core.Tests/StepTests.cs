@@ -15,7 +15,7 @@ namespace Collatz.Core.Tests
         [Fact]
         public void NegativeValueThrowsArgumentOutOfRangeWithMessage()
         {
-            string expectedMsg = "Specified argument was out of the range of valid values. (Parameter 'Value')";
+            string expectedMsg = "Specified argument was out of the range of valid values.\r\nParameter name: Value";
             Action act = () => new CollatzStep { Value = -1, Step = 0 };
             var ex = Assert.Throws<ArgumentOutOfRangeException>(act);
             Assert.Equal(expectedMsg, ex.Message);
