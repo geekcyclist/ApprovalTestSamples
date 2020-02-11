@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerFileParser", "CustomerFileParser\CustomerFileParser.csproj", "{99021076-65E7-43E3-9543-8DC91B48EAE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerFileParserTests", "CustomerFileParserTests\CustomerFileParserTests.csproj", "{74CDB448-5011-46F2-A7E9-A1DCD633339F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99021076-65E7-43E3-9543-8DC91B48EAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99021076-65E7-43E3-9543-8DC91B48EAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99021076-65E7-43E3-9543-8DC91B48EAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99021076-65E7-43E3-9543-8DC91B48EAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CDB448-5011-46F2-A7E9-A1DCD633339F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CDB448-5011-46F2-A7E9-A1DCD633339F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CDB448-5011-46F2-A7E9-A1DCD633339F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CDB448-5011-46F2-A7E9-A1DCD633339F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {346975C5-DEF8-4637-AEF0-7D38540E7DC2}
+	EndGlobalSection
+EndGlobal
