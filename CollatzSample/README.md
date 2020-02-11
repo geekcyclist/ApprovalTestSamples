@@ -25,3 +25,51 @@ For Example, if you start with the value you end up with the series below:
 | 4     | 9    |
 | 2     | 10   |
 | 1     | 11   |
+
+## Projects and Tasks
+
+The source folder has `before` and `after` subdirectories. 
+
+The `before` directory includes:
+
+- Collatz.Core - A .NET Standard Class Library with the core objects used to build a Collatz Sequence.
+- Collatz.Core.Tests - A .NET Core xUnit Test Project, with standard xUnit Assert-based tests. This project has:
+  - the required references to the main ApprovalTests NuGet package;
+  - using statements for ApprovalTests where required;
+  - initial annotations to set the ApprovalTests Reporter type;
+  - skipped test stubs with commented steps where ApprovalTests should be implemented. 
+- Collatz.WinForms - A .NET Framework WinForms Application meant to simulate a "Legacy" application.
+- Collatz.WinForms.Tests As MS Test Unit Test Project (.NET Framework). This project has:
+  - the required references to the ApprovalTests and ApprovalTests.WinForms NuGet packages;
+  - using statements for ApprovalTests and ApprovalTests.WinForms where required;
+  - initial annotations to set the ApprovalTests Reporter type;
+  - skipped test stubs with commented steps where ApprovalTests should be implemented. 
+
+The intent is for a learner to clone the full repository, then use the source, solution and projects in `before` to complete the following tasks.
+
+### Setup Tasks
+
+- Build and run all projects and tests
+- Verify that .gitignore has and entry for "&ast;.received.&ast;"
+
+### Collatz.Core & Collatz.Core.Tests Tasks
+
+- Provide and appropriate override for ToString() for:
+  - Collatz.Core.CollatzStep
+  - Collatz.Core.CollatzSeries (include an enumeration of the steps)
+- (optional) Add an annotation to the test class or to Collatz.Core.Tests.AssemblyInfo.cs to set the `UseApprovalSubDirectory`
+- (optional) Add an annotation to the test class or to Collatz.Core.Tests.AssemblyInfo.cs for `UseReporter` to set the desired default `Reporter` type.
+- Implement the stubbed ApprovalTests
+
+### Collatz.WinForms & Collatz.WinForms.Tests Tasks
+
+- (optional) Add an annotation to the test class or to Collatz.WinForms.Tests.AssemblyInfo.cs to set the `UseApprovalSubDirectory`
+- (optional) Add an annotation to the test class or to Collatz.WinForms.Tests.AssemblyInfo.cs for `UseReporter` to set the desired default `Reporter` type.
+- Implement the `VerifyFormStartup()` test.
+- Use ExtractMethod refactorings to introduce "seams" while implementing stubbed ApprovalTests for:
+  - `VerifyScenario()`
+  - `VerifyClear()`
+
+### Reference Implementation
+
+The `after` folder includes a completed reference implementation of the tutorial steps above. Like anything else in software development, there are myriad other possible implementations, and this one is far from perfect or "production ready". These completed projects are provided to give the learner hints in case they get stuck trying to implement their own tests.
