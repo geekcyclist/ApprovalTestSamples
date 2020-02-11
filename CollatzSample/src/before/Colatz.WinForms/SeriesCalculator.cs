@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Collatz.Core;
 
-namespace Colatz.WinForms
+namespace Collatz.WinForms
 {
     public partial class SeriesCalculator : Form
     {

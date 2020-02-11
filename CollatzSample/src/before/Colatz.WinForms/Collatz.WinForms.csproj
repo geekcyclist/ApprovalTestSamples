@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C92DC9E7-F8F3-436D-9E93-76A13D5C54CA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Colatz.WinForms</RootNamespace>
+    <RootNamespace>Collatz.WinForms</RootNamespace>
     <AssemblyName>Colatz.WinForms</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

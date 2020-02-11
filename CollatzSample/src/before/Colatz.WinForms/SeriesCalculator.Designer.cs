@@ -1,4 +1,4 @@
-﻿namespace Colatz.WinForms
+﻿namespace Collatz.WinForms
 {
     partial class SeriesCalculator
     {
