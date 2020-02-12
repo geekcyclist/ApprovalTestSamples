@@ -1,0 +1,9 @@
+﻿Start Value: 10
+Total Steps: 6
+	Step: 0; Value: 10
+	Step: 1; Value: 5
+	Step: 2; Value: 16
+	Step: 3; Value: 8
+	Step: 4; Value: 4
+	Step: 5; Value: 2
+	Step: 6; Value: 1

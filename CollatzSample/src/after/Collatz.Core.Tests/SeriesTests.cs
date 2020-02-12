@@ -46,24 +46,18 @@ namespace Collatz.Core.Tests
             }
         }
 
-        [Fact (Skip = "Not Implemented")]
-        [UseReporter(typeof(DiffReporter))]
+        [Fact]
         public void ApproveSeriesSteps()
         {
-            //TODO: Implement ApproveSeriesSteps() to replace ValidateSeries()
-            // set the start value
-            // get an enumerable of steps
-            // verify all the steps
+            var steps = new CollatzSeries(10).Steps;
+            Approvals.VerifyAll(steps, "step");
         }
 
-        [Fact (Skip = "Not Implemented")]
-        [UseReporter(typeof(DiffReporter))]
+        [Fact]
         public void ApproveSeries()
         {
-            //TODO: Implement ApproveSeries() to approve the complex object
-            // set the start value
-            // get the series
-            // verify the series
+            var series = new CollatzSeries(10);
+            Approvals.Verify(series);
         }
 
     }

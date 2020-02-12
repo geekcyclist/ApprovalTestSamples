@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace Collatz.Core
 {
@@ -33,6 +34,19 @@ namespace Collatz.Core
             }
 
             Steps = results;
+        }
+
+        public override string ToString()
+        {
+            var builder = new StringBuilder();
+            builder.AppendLine($"Start Value: {StartValue}");
+            builder.AppendLine($"Total Steps: {Steps.Count - 1}");
+            foreach (var step in Steps)
+            {
+                builder.AppendLine($"\t{step.ToString()}");
+            }
+
+            return builder.ToString();
         }
     }
 }

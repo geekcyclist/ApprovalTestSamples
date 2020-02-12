@@ -20,5 +20,10 @@ namespace Collatz.Core
         }
 
         public int Step { get; set; }
+
+        public override string ToString()
+        {
+            return $"Step: {Step}; Value: {Value}";
+        }
     }
 }
