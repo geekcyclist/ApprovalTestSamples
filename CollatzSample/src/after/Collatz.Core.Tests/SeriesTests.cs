@@ -8,6 +8,8 @@ using ApprovalTests.Reporters.Windows;
 
 namespace Collatz.Core.Tests
 {
+    [UseReporter(typeof(BeyondCompare4Reporter))]
+    [UseApprovalSubdirectory("Approvals")]
     public class SeriesTests
     {
         [Theory]
