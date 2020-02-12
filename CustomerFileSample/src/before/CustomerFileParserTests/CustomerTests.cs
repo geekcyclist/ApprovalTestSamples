@@ -1,4 +1,4 @@
-using System;
+using ApprovalTests;
 using Xunit;
 
 namespace CustomerFileParserTests
@@ -19,6 +19,14 @@ namespace CustomerFileParserTests
             Assert.Equal(expectedFirst, homer.FirstName);
             Assert.Equal(expectedMiddle, homer.MiddleName);
             Assert.Equal(expectedLast, homer.LastName);
+        }
+
+        [Fact(Skip = "Approval Test Stub")]
+        public void ApproveCustomer()
+        {
+            //TODO: Implement an ApprovalTest for Customer
+            // do - create a customer
+            // approve - create the approval test
         }
     }
 }

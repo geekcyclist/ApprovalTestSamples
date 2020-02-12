@@ -2,6 +2,7 @@
 using System.IO;
 using System.Linq;
 using Xunit;
+using ApprovalTests;
 
 namespace CustomerFileParserTests
 {
@@ -16,6 +17,14 @@ namespace CustomerFileParserTests
             var customers = parser.Parse(reader);
 
             Assert.True(customers.Any());
+        }
+
+        [Fact(Skip = "Approval Test Stub")]
+        public void ApproveParsedCustomerData()
+        {
+            // TODO: Implement approval of the a customer collection
+            // do - create a parser and parse the file
+            // verify - approve the collection
         }
     }
 }
