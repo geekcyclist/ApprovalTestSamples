@@ -2,7 +2,9 @@
 using System.Linq;
 using Xunit;
 using ApprovalTests;
+using ApprovalTests.Namers;
 using ApprovalTests.Reporters;
+using ApprovalTests.Reporters.Windows;
 
 namespace Collatz.Core.Tests
 {
