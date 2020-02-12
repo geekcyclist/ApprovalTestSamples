@@ -51,14 +51,14 @@ The intent is for a learner to clone the full repository, then use the source, s
 
 - Build and run all projects and tests
 - Verify that .gitignore has and entry for "&ast;.received.&ast;"
+- (optional) Add an annotation to the test class or to Collatz.Core.Tests.AssemblyInfo.cs to set the `UseApprovalSubDirectory`
+- (optional) Add an annotation to the test class or to Collatz.Core.Tests.AssemblyInfo.cs for `UseReporter` to set the desired default `Reporter` type.
 
 ### Collatz.Core & Collatz.Core.Tests Tasks
 
 - Provide and appropriate override for ToString() for:
   - Collatz.Core.CollatzStep
   - Collatz.Core.CollatzSeries (include an enumeration of the steps)
-- (optional) Add an annotation to the test class or to Collatz.Core.Tests.AssemblyInfo.cs to set the `UseApprovalSubDirectory`
-- (optional) Add an annotation to the test class or to Collatz.Core.Tests.AssemblyInfo.cs for `UseReporter` to set the desired default `Reporter` type.
 - Implement the stubbed ApprovalTests
 
 ### Collatz.WinForms & Collatz.WinForms.Tests Tasks
