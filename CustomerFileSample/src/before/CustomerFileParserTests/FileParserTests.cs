@@ -24,12 +24,15 @@ namespace CustomerFileParserTests
             Assert.True(customers.Any());
         }
 
-        [Fact(Skip = "Approval Test Stub")]
+        [Fact]
         public void ApproveParsedCustomerData()
         {
-            // TODO: Implement approval of the a customer collection
-            // do - create a parser and parse the file
-            // verify - approve the collection
+            StringReader reader = new StringReader(MockData.SampleRows);
+            var parser = new CustomerFileParser.FileParser();
+            
+            var customers = parser.Parse(reader);
+
+            Approvals.VerifyAll(customers, "Customer");
         }
     }
 }

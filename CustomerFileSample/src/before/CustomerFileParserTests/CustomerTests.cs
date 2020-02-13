@@ -37,12 +37,10 @@ namespace CustomerFileParserTests
             Assert.Equal(expectedAge, homer.Age);
         }
 
-        [Fact(Skip = "Approval Test Stub")]
+        [Fact]
         public void ApproveCustomer()
         {
-            //TODO: Implement an ApprovalTest for Customer
-            // do - create a customer
-            // approve - create the approval test
+            Approvals.Verify(MockData.CreateHomer());
         }
     }
 }

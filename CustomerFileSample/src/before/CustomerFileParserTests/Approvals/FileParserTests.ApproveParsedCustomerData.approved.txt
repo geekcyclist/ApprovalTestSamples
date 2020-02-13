@@ -1,0 +1,60 @@
+﻿Customer[0] = Id: 1256897
+FirstName: Robert
+MiddleName: Alan
+LastName: Johnson
+Suffix: Jr
+Street: 7843 Bunker Hill Dr
+City: Sandy
+State: UT
+Zip: 87074
+Zip4: 1324
+Age: 47
+
+Customer[1] = Id: 1256898
+FirstName: Sylvia
+MiddleName: Jean
+LastName: Anderson
+Suffix: (null)
+Street: 1821 W 6720 S Apt 7
+City: West Jordan
+State: UT
+Zip: 84084
+Zip4: (null)
+Age: 31
+
+Customer[2] = Id: 1256899
+FirstName: Jennifer
+MiddleName: (null)
+LastName: Carlysle
+Suffix: (null)
+Street: 1571 Chablis Cir
+City: Sandy
+State: UT
+Zip: 84092
+Zip4: 2801
+Age: 52
+
+Customer[3] = Id: 1256900
+FirstName: Jeremiah
+MiddleName: James
+LastName: Searle
+Suffix: (null)
+Street: 3167 S Patrick Dr
+City: Magna
+State: UT
+Zip: 84044
+Zip4: 3201
+Age: 39
+
+Customer[4] = Id: 1256901
+FirstName: Ian
+MiddleName: Patrick
+LastName: O'Brian
+Suffix: III
+Street: 229 University Village
+City: Salt Lake City
+State: UT
+Zip: 84108
+Zip4: (null)
+Age: 24
+

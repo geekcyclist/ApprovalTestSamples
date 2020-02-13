@@ -1,0 +1,11 @@
+﻿Id: 1
+FirstName: Homer
+MiddleName: (null)
+LastName: Simpson
+Suffix: (null)
+Street: 742 Evergreen Terrace
+City: Springfield
+State: IL
+Zip: 62704
+Zip4: 7023
+Age: 39
