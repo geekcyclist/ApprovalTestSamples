@@ -1,23 +1,23 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using ApprovalTests.Namers;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 // Required references
 using Collatz.WinForms;
 using ApprovalTests.WinForms;
 using ApprovalTests.Reporters;
+using ApprovalTests.Reporters.Windows;
 
 namespace Collatz.WinForms.Tests
 {
     [TestClass]
-    // TODO: Add a clipboard reporter
-    [UseReporter(typeof(DiffReporter))]
+    [UseReporter(typeof(BeyondCompare4Reporter), typeof(ClipboardReporter))]
+    [UseApprovalSubdirectory("Approvals")]
     public class SeriesCalculatorFormTests
     {
         [TestMethod]
         public void VerifyFormStartup()
         {
-            // TODO: Implement VerifyFormStartup()
-            // create a form instance
-            // verify form appears correctly
-            Assert.Inconclusive();
+            var frm = new SeriesCalculator();
+            WinFormsApprovals.Verify(frm);
         }
 
         [TestMethod]
