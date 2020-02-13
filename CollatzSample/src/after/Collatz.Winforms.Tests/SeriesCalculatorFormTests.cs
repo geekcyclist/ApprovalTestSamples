@@ -31,14 +31,10 @@ namespace Collatz.WinForms.Tests
         [TestMethod]
         public void VerifyClear()
         {
-            // TODO: Implement VerifyClear()
-            // create a form instance
-            // set a value for the text box
-            // populate the grid
-            // ?? how can we verify that the data exists?
-            // clear the form
-            // verify form appears correctly
-            Assert.Inconclusive();
+            var frm = new SeriesCalculator();
+            frm.PopulateForm(10);
+            frm.ClearForm();
+            WinFormsApprovals.Verify(frm);
         }
     }
 }

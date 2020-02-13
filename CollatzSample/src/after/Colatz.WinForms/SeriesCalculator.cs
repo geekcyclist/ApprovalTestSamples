@@ -49,6 +49,11 @@ namespace Collatz.WinForms
 
         private void ClearButton_Click(object sender, EventArgs e)
         {
+            ClearForm();
+        }
+
+        public void ClearForm()
+        {
             InitialValueTextBox.Clear();
             SeriesGridView.DataSource = null;
             SeriesGridView.Visible = false;
