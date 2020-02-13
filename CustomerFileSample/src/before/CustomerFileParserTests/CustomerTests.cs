@@ -14,11 +14,11 @@ namespace CustomerFileParserTests
         public void CanPopulateCustomer()
         {
             int expectedId = 1;
-            string expectedFirst = "Homer";
+            string expectedFirst = "HOMER";
             string expectedMiddle = null;
-            string expectedLast = "Simpson";
-            string expectedStreet = "742 Evergreen Terrace";
-            string expectedCity = "Springfield";
+            string expectedLast = "SIMPSON";
+            string expectedStreet = "742 EVERGREEN TERRACE";
+            string expectedCity = "SPRINGFIELD";
             string expectedState = "IL";
             string expectedZip = "62704";
             string expectedZip4 = "7023";

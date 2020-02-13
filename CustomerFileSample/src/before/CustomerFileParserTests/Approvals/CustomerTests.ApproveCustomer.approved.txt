@@ -1,10 +1,10 @@
 ﻿Id: 1
-FirstName: Homer
+FirstName: HOMER
 MiddleName: (null)
-LastName: Simpson
+LastName: SIMPSON
 Suffix: (null)
-Street: 742 Evergreen Terrace
-City: Springfield
+Street: 742 EVERGREEN TERRACE
+City: SPRINGFIELD
 State: IL
 Zip: 62704
 Zip4: 7023

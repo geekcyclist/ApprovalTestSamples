@@ -1,58 +1,58 @@
 ﻿Customer[0] = Id: 1256897
-FirstName: Robert
-MiddleName: Alan
-LastName: Johnson
-Suffix: Jr
-Street: 7843 Bunker Hill Dr
-City: Sandy
+FirstName: ROBERT
+MiddleName: ALAN
+LastName: JOHNSON
+Suffix: JR
+Street: 7843 BUNKER HILL DR
+City: SANDY
 State: UT
 Zip: 87074
 Zip4: 1324
 Age: 47
 
 Customer[1] = Id: 1256898
-FirstName: Sylvia
-MiddleName: Jean
-LastName: Anderson
+FirstName: SYLVIA
+MiddleName: JEAN
+LastName: ANDERSON
 Suffix: (null)
-Street: 1821 W 6720 S Apt 7
-City: West Jordan
+Street: 1821 W 6720 S APT 7
+City: WEST JORDAN
 State: UT
 Zip: 84084
 Zip4: (null)
 Age: 31
 
 Customer[2] = Id: 1256899
-FirstName: Jennifer
+FirstName: JENNIFER
 MiddleName: (null)
-LastName: Carlysle
+LastName: CARLYSLE
 Suffix: (null)
-Street: 1571 Chablis Cir
-City: Sandy
+Street: 1571 CHABLIS CIR
+City: SANDY
 State: UT
 Zip: 84092
 Zip4: 2801
 Age: 52
 
 Customer[3] = Id: 1256900
-FirstName: Jeremiah
-MiddleName: James
-LastName: Searle
+FirstName: JEREMIAH
+MiddleName: JAMES
+LastName: SEARLE
 Suffix: (null)
-Street: 3167 S Patrick Dr
-City: Magna
+Street: 3167 S PATRICK DR
+City: MAGNA
 State: UT
 Zip: 84044
 Zip4: 3201
 Age: 39
 
 Customer[4] = Id: 1256901
-FirstName: Ian
-MiddleName: Patrick
-LastName: O'Brian
+FirstName: IAN
+MiddleName: PATRICK
+LastName: O'BRIAN
 Suffix: III
-Street: 229 University Village
-City: Salt Lake City
+Street: 229 UNIVERSITY VILLAGE
+City: SALT LAKE CITY
 State: UT
 Zip: 84108
 Zip4: (null)
