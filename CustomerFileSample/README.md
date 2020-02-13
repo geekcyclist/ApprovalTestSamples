@@ -4,7 +4,7 @@
 
 The set of projects in this repository are based around a very stripped down flat-file processor. It is meant to highlight some of the advantages of using ApprovalTests.Net to verify complex objects and collection.
 
-There is no console or UI, which would normally manage the code for retreiving or sending files to be parsed. There is no persistence layer either. The entire focus is on parsing data into a model/object, and testing the properties of that object. A **Feature Request** in the Projects and Tasks section below highlights the maintenance advantage of ApprovalTests over traditional asserts in *some situations*.
+There is no console or UI, which would normally manage the code for retrieving or sending files to be parsed. There is no persistence layer either. The entire focus is on parsing data into a model/object, and testing the properties of that object. A **Feature Request** in the Projects and Tasks section below highlights the maintenance advantage of ApprovalTests over traditional asserts in *some situations*.
 
 ## Projects and Tasks ##
 
@@ -22,10 +22,10 @@ The intent is for a learner to clone the full repository, then use the source, s
 
 ### Setup Tasks
 
-- Build and run all projects and tests
+- Build all projects and run tests
 - Verify that .gitignore has and entry for "&ast;.received.&ast;"
-- Add a UseReporter annotation to the test class the desired default Reporter type.
-- (optional) Add an annotation to the test class to set the UseApprovalSubDirectory
+- Add a UseReporter annotation to each test class to set the desired default Reporter type.
+- (optional) Add an annotation to each test class to set the UseApprovalSubDirectory.
 
 ### Initial ApprovalTest Implementation Tasks
 
