@@ -3,9 +3,14 @@ using System.IO;
 using System.Linq;
 using Xunit;
 using ApprovalTests;
+using ApprovalTests.Namers;
+using ApprovalTests.Reporters;
+using ApprovalTests.Reporters.Windows;
 
 namespace CustomerFileParserTests
 {
+    [UseReporter(typeof(BeyondCompare4Reporter))]
+    [UseApprovalSubdirectory("Approvals")]
     public class FileParserTests
     {
         [Fact]

@@ -1,8 +1,13 @@
 using ApprovalTests;
+using ApprovalTests.Namers;
+using ApprovalTests.Reporters;
+using ApprovalTests.Reporters.Windows;
 using Xunit;
 
 namespace CustomerFileParserTests
 {
+    [UseReporter(typeof(BeyondCompare4Reporter))]
+    [UseApprovalSubdirectory("Approvals")]
     public class CustomerTests
     {
         [Fact]
