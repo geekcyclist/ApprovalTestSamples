@@ -34,10 +34,16 @@ namespace Collatz.WinForms
                 return;
             }
 
+            PopulateForm(initialValue);
+        }
+
+        public void PopulateForm(int initialValue)
+        {
             var series = new CollatzSeries(initialValue);
             var steps = series.Steps;
 
             SeriesGridView.DataSource = steps;
+            SeriesGridView.Parent.Visible = true;
             SeriesGridView.Visible = true;
         }
 

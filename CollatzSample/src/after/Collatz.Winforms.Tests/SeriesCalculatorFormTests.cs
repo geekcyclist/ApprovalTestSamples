@@ -23,12 +23,9 @@ namespace Collatz.WinForms.Tests
         [TestMethod]
         public void VerifyScenario()
         {
-            //TODO: Implement VerifyScenario
-            // create a form instance
-            // set a value for the text box
-            // populate the grid
-            // verify form appears correctly
-            Assert.Inconclusive();
+            var frm = new SeriesCalculator();
+            frm.PopulateForm(10);
+            WinFormsApprovals.Verify(frm);
         }
 
         [TestMethod]
