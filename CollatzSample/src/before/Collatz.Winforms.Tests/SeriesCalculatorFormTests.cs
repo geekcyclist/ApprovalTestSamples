@@ -7,8 +7,9 @@ using ApprovalTests.Reporters;
 namespace Collatz.WinForms.Tests
 {
     [TestClass]
-    // TODO: Add a clipboard reporter
-    [UseReporter(typeof(DiffReporter))]
+    //TODO: Add UseReporter annotation to set default reporter
+    //TODO: Add UseReporter annotation for clipboard reporter
+    //TODO: Add UseApprovalSubdirectory annotation to set file location
     public class SeriesCalculatorFormTests
     {
         [TestMethod]

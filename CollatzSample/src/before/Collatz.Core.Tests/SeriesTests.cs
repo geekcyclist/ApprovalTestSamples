@@ -2,10 +2,14 @@
 using System.Linq;
 using Xunit;
 using ApprovalTests;
+using ApprovalTests.Namers;
 using ApprovalTests.Reporters;
+using ApprovalTests.Reporters.Windows;
 
 namespace Collatz.Core.Tests
 {
+    //TODO: Add UseReporter annotation to set default reporter
+    //TODO: Add UseApprovalSubdirectory annotation to set file location
     public class SeriesTests
     {
         [Theory]
@@ -43,17 +47,15 @@ namespace Collatz.Core.Tests
         }
 
         [Fact (Skip = "Not Implemented")]
-        [UseReporter(typeof(DiffReporter))]
         public void ApproveSeriesSteps()
         {
             //TODO: Implement ApproveSeriesSteps() to replace ValidateSeries()
             // set the start value
             // get an enumerable of steps
-            // verify all the steps
+            // verify all the steps 
         }
 
         [Fact (Skip = "Not Implemented")]
-        [UseReporter(typeof(DiffReporter))]
         public void ApproveSeries()
         {
             //TODO: Implement ApproveSeries() to approve the complex object
