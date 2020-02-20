@@ -6,6 +6,8 @@ using ApprovalTests;
 
 namespace CustomerFileParserTests
 {
+    //TODO: Add UseReporter Annotation to set default
+    //TODO: Add UseApprovalSubdirectory annotation to set directory
     public class FileParserTests
     {
         [Fact]
